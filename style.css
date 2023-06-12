@@ -8,6 +8,7 @@ body {
     height: 500px;
     border-bottom-right-radius: 80px;
     border-bottom-left-radius: 80px;
+    margin-bottom: 30px;
 }
 
 .navbar {
@@ -70,7 +71,57 @@ header {
     font-weight: bold;
 }
 
+.buy:hover {
+    cursor: grab;
+}
+
 span.logo {
     color:rgb(255, 248, 115)
 }
 
+em {
+    font-style: normal;
+}
+
+em.keep {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.photos img {
+    height: 150px;
+    width: 150px;
+    border: 10px solid rgb(236, 232, 152);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.photos {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.honey-types {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.honey-types h2 {
+    font-weight: 900;
+    text-transform: lowercase;
+}
+
+figcaption {
+    width: 180px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+span.labels {
+    font-weight: bold;
+    text-align: center;
+}
